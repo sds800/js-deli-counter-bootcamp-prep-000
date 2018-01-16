@@ -24,7 +24,7 @@ function nowServing(katzDeliLine){
 
 function currentLine(line){
   
- let countedLine[]  
+ let countedLine = []  
  
   if (line.length === 0){
   return "The line is currently empty."
