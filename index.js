@@ -28,6 +28,7 @@ function currentLine(line){
     return "The line is currently empty."
   }
   else{
+    let countedLine[]
     for (var i = 0; i < line.length; i++) {
   countedLine.push(`${++i}. ${line[i]}`)
 }
