@@ -35,5 +35,5 @@ function currentLine(line){
 }
 
   }
-  return countedLine
+  return `"The line is currently: ${countedLine}"`
 }
