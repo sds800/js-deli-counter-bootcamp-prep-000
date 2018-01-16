@@ -33,7 +33,7 @@ function currentLine(line){
   for (var i = 0; i < line.length; i++) {
   countedLine.push(`${++i}. ${line[i]}`)
 }
-return `The line is currently: ${countedLine}`
+
   }
-  
+  return `The line is currently: ${countedLine}`;
 }
