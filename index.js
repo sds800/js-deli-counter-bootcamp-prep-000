@@ -35,5 +35,5 @@ function currentLine(line){
 }
 
   }
-  return `The line is currently: ${countedLine}`
+  return `The line is currently: ${countedLine.join()}`
 }
