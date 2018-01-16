@@ -29,7 +29,7 @@ function currentLine(line){
   }
   else{
     for (var i = 0; i < line.length; i++) {
-  countedLine.push(`${i++}. ${line[i]})
+  countedLine.push(`${i++}. ${line[i]}`)
 }
    
   }
