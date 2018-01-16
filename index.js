@@ -24,15 +24,16 @@ function nowServing(katzDeliLine){
 
 function currentLine(line){
   
+ let countedLine[]  
+ 
   if (line.length === 0){
-    return "The line is currently empty."
+  return "The line is currently empty."
   }
   else{
-    let countedLine[]
-    for (var i = 0; i < line.length; i++) {
+  for (var i = 0; i < line.length; i++) {
   countedLine.push(`${++i}. ${line[i]}`)
 }
-   
+return `The line is currently: ${countedLine}`
   }
-  return `The line is currently: ${countedLine}`
+  
 }
